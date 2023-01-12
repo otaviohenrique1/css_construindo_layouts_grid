@@ -17,6 +17,10 @@
   grid-row: 1/4;
 }
 
+.secao-horizontal .cartao__titulo {
+  align-self: flex-end;
+}
+
 /*
   grid-column-start => Onde inicia a coluna
   grid-column-end => Onde temina a coluna

@@ -1,11 +1,11 @@
 .menu-lateral {
   display: grid;
-  grid-template-rows: auto auto auto 1fr;
+  grid-template-rows: repeat(3,  auto) 1fr;
   row-gap: 2rem;
 }
 
-.secao-horizontal .cartao__titulo {
-  align-self: flex-end;
+.menu-lateral__logo {
+  justify-self: center;
 }
 
 /*
