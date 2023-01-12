@@ -1,0 +1,16 @@
+.menu-lateral {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  row-gap: 2rem;
+}
+
+.secao-horizontal .cartao__titulo {
+  align-self: flex-end;
+}
+
+/*
+  row-gap => Espaçamento entre os elementos na linha
+  column-gap => Espaçamento entre os elementos na coluna
+
+  gap: row-gap column-gap;
+*/
